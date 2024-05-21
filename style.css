@@ -5,16 +5,48 @@
 }
 
 .normal {
-  color: blueviolet;
+  color: rgb(0, 0, 0);
   background-color: white;
 }
 
 .inverse {
-  color: white;
-  background-color: blueviolet;
+  color: rgb(255, 122, 36);
+  background-color: rgb(255, 255, 255);
 }
 
-img {
-  width: 500px;
-  height: auto;
+.center-container{
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/images/backgorund.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: inherit;
 }
