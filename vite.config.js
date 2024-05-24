@@ -9,8 +9,9 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
-                about: resolve(__dirname, 'nested/about.html'),
+                project: resolve(__dirname, 'nested/projecten.html'),
                 contact: resolve(__dirname, 'nested/contact.html'),
+                OfferteAanvraag_01: resolve(__dirname, 'nested/OfferteAanvraag_01.html')
             },
         },
     },

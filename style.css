@@ -19,6 +19,7 @@
 .menu_selected {
   background-color: white;
   color: rgb(255, 122, 36);
+
 }
 
 .menu_button.extra-padding {
@@ -28,8 +29,22 @@
 
 .werk_achtergrond{
   background-color: rgba(255, 255, 255, 0.7); 
+  display: flex;
+  width: 1046px;
+  height: 637px;
+  z-index: 1;
 }
-
+.homeTekst{
+  font-weight: 500;
+  margin-top: 50px;
+  margin-left: 20%;
+  display: flex;
+  width: 600px;
+}
+.oranje_balk{
+  margin-right: 20px;
+  height: 320px;
+}
 body {
   font-family: "open sans";
   margin: 0;
@@ -61,8 +76,4 @@ nav {
 
 nav a {
   text-decoration: none;
-}
-main{
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.7); 
 }
